@@ -1,0 +1,74 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+}
+
+header {
+	background-color: #333;
+	height: 100px;
+	position: relative;
+}
+
+.google {
+	font-size: 24px;
+	color: white;
+	position: absolute;
+	top: 40px;
+	left: 200px;
+}
+
+.apple {
+	font-size: 24px;
+	color: white;
+	position: absolute;
+	top: 40px;
+	left: 50px;
+}
+
+h1 {
+	margin:60px 0px 0px 40px;
+	font-size: 32px;
+	color: black;
+	font-family: helvetica;
+}
+
+section{
+	margin:20px 20px 20px 20px;
+	font-size: 14px;
+	font-family: helvetica;
+	column-count: 2;
+}
+
+section p {
+	font-family: helvetica;
+	font-size: 16px;
+	text-align: left;
+	display: inline-block;
+	margin: 20px;
+	height: 100%;
+}
+
+.special {
+	font-family: helvetica;
+	font-size: 16px;
+	text-align: left;
+	display: inline-block;
+	margin: 20px;
+	height: 100%;
+	margin-bottom: 200px;
+}
+section img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer {
+	background-color: #333;
+	height: 100px;
+	position: relative;
+	margin-top: 40px;
+}
